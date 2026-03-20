@@ -2,13 +2,39 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(232, 232, 233);
+    background: rgb(169, 223, 178);
 }
 
 h1 {
+    padding: 15px;
     text-align: center;
-    background: rgb(152, 198, 241);
-    color: rgb(184, 235, 66);
+    background: rgb(136, 209, 148);
+    color: rgb(69, 126, 78);
+}
+
+h3 {
+    padding: 15px;
+   color: rgb(69, 126, 78); 
+}
+
+p {
+    padding: 15px;
+    color: rgb(69, 126, 78); 
+}
+
+button {
+     background-color:  rgb(136, 209, 148);
+    color: rgb(69, 126, 78);
+    border: 2px solid rgb(69, 126, 78);
+}
+
+td {
+    color: rgb(69, 126, 78);
+}
+
+th {
+    color: rgb(69, 126, 78);
+
 }
 
 ul {
@@ -25,7 +51,7 @@ li {
     flex-wrap: wrap;
 
     width: 485px;
-    background: black;
+    background: rgb(255, 186, 140);
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -36,7 +62,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(235, 113, 113);
+    background: rgb(255, 167, 95);
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -45,8 +71,29 @@ li {
     transition: background 0.3s;
 }
 
+table{
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+}
+
+th, td{
+border: 2px solid rgb(69, 126, 78);
+padding: 10px;
+text-align: center;
+}
+
+th{
+background: rgb(136, 209, 148);
+color: rgb(69, 126, 78);
+}
+
+tr :nth-child(even) {
+background: rgb(136, 209, 148);
+}
+
 .bloks:hover {
-    background:  #ff4747;
+    background: rgb(248, 138, 47);
     cursor: pointer;
 }
 
@@ -59,18 +106,27 @@ a {
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s, transform 0.2s;
-    background-color: #007BFF;
-    color: white;
-    border: 2px solid #0056b3;
+    background-color:  rgb(136, 209, 148);
+    color: rgb(69, 126, 78);
+    border: 2px solid rgb(69, 126, 78);
 }
 
 a:hover {
-    background-color: #0056b3;
+    background-color:rgb(96, 189, 110);
     transform: scale(1.05);
 }
 
 a:active {
-    background-color: #007BFF;
-    color: rgb(178, 236, 130);
+    background-color: rgb(96, 189, 110);
+    color: rgb(69, 126, 78);
     transform: scale(1.05);
+}
+
+footer {
+margin-top: 30px;
+text-align: center;
+padding: 10px;
+background: rgb(136, 209, 148);
+color: rgb(69, 126, 78);
+border-radius: 12px;
 }
